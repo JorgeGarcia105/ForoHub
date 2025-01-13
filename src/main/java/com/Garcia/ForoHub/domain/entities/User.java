@@ -61,6 +61,4 @@ public class User {
     public Thread getPerfil() {
         return perfil;
     }
-
-
 }

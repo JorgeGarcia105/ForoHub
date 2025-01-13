@@ -1,19 +1,18 @@
 package com.Garcia.ForoHub.application.dtos;
 
-public class CourseDTO {
+public class ProfileDTO {
     private Long id;
     private String nombre;
-    private String categoria;
 
-    public CourseDTO() {
+    public ProfileDTO() {
     }
 
-    public CourseDTO(Long id, String nombre, String categoria) {
+    public ProfileDTO(Long id, String nombre) {
         this.id = id;
         this.nombre = nombre;
-        this.categoria = categoria;
     }
 
+    // Getters y setters
     public Long getId() {
         return id;
     }
@@ -28,13 +27,5 @@ public class CourseDTO {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public String getCategoria() {
-        return categoria;
-    }
-
-    public void setCategoria(String categoria) {
-        this.categoria = categoria;
     }
 }
